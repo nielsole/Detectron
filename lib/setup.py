@@ -36,6 +36,7 @@ ext_modules = [
         extra_compile_args=[
             '-Wno-cpp'
         ],
+        extra_link_args=['-L/usr/lib/x86_64-linux-gnu/'],
         include_dirs=[
             _NP_INCLUDE_DIRS
         ]
@@ -48,6 +49,7 @@ ext_modules = [
         extra_compile_args=[
             '-Wno-cpp'
         ],
+        extra_link_args=['-L/usr/lib/x86_64-linux-gnu/'],
         include_dirs=[
             _NP_INCLUDE_DIRS
         ]
